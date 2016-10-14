@@ -1,0 +1,9 @@
+{
+  "name": "org.factpub.factify",
+  "description": "Factify Chrome Native Application Launcher",
+  "path": "_factify_launcher.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ohbgdjppihkipbmeickolladmlchknjg/"
+  ]
+}
