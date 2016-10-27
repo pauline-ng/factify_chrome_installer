@@ -4,6 +4,6 @@
   "path": "_factify_launcher.bat",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://ohbgdjppihkipbmeickolladmlchknjg/"
+    "chrome-extension://fglknmfclpjhnhncpiklllajkpelgeie/"
   ]
 }

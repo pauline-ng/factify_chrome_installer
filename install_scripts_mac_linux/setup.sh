@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# To install the host program. Run $bash setup.sh from the terminal: 
 set -e
 
 # Step 1: Check Java version 1.8+
@@ -31,17 +32,17 @@ fi
 
 # Step 2: Ask user to installation.
 
-echo "It will require 48MB of the disk space."
-echo "Press any key to proceed?(yes/no):"
+echo "Factify will require 42MB of the disk space."
+echo "Press any key to proceed."
 read ans
 
 
 # Step 3: Create factpub folder under $HOME
 
-echo "create the folder"
+#echo "create the folder"
 HOST_DIR="$HOME/factpub_chrome_host"
 
-echo $HOST_DIR
+#echo $HOST_DIR
 
 rm -fr $HOST_DIR
 mkdir $HOST_DIR
